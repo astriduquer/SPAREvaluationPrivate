@@ -1,0 +1,21 @@
+name: List Files in Specific Directory
+
+on:  workflow_dispatch
+
+permissions:
+ contents: write
+ 
+jobs:
+  list-files:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: List files in SPAREvaluationPrivate/sparontologies
+      run: |
+        echo "Listing files in SPAREvaluationPrivate/sparontologies and URLs:"
+        for file in $(git ls-tree -r main --name-only SPAREvaluationPrivate/sparontologies/); do
+          echo "$file -> https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/$file"
+        done
