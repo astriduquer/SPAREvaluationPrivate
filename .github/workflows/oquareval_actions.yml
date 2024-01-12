@@ -2,6 +2,9 @@ name: OQuaRE Evaluation
 
 on: workflow_dispatch
 
+persissions:
+ contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
