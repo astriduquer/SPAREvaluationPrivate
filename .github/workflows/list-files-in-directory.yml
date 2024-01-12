@@ -16,6 +16,6 @@ jobs:
     - name: List files in SPAREvaluationPrivate/sparontologies
       run: |
         echo "Listing files in SPAREvaluationPrivate/sparontologies and URLs:"
-        for file in $(git ls-tree -r main --name-only SPAREvaluationPrivate/sparontologies/); do
+        for file in $(git ls-tree -r main --name-only /SPAREvaluationPrivate/sparontologies/); do
           echo "$file -> https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/$file"
         done
