@@ -2,7 +2,7 @@ name: OQuaRE Evaluation
 
 on: workflow_dispatch
 
-persissions:
+permissions:
  contents: write
 
 jobs:
