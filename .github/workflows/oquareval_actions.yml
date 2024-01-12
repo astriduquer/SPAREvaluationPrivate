@@ -20,7 +20,7 @@ jobs:
           python-version: '3.9'
 
       - name: OQuaRE module
-        uses: Emdien/oquare-metrics@v2.1
+        uses: tecnomod-um/oquare-metrics@v2.2
         with:
           ontology-folders: sparontologies
           contents-folder: OQUAREEVAL
