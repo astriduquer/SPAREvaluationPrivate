@@ -10,9 +10,9 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: List files in sparontologies
+    - name: List files in gamificationOntology
       run: |
-        echo "Listing files in sparontologies and URLs:"
-        for file in $(git ls-tree -r main --name-only sparontologies/); do
+        echo "Listing files in gamificationOntology and URLs:"
+        for file in $(git ls-tree -r main --name-only gamificationOntology/); do
           echo "$file -> https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/$file"
         done
