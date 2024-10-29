@@ -25,5 +25,5 @@ jobs:
       - name: OQuaRE module
         uses: tecnomod-um/oquare-metrics@v2.2
         with:
-          ontology-folders: gamificationOntologies
+          ontology-folders: gamificationOntology
           contents-folder: OQUAREEVALGAM
