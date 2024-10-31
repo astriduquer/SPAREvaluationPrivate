@@ -26,4 +26,4 @@ jobs:
         uses: tecnomod-um/oquare-metrics@v2.2
         with:
           ontology-folders: gamificationOntology
-          contents-folder: OQUAREEVAL
+          contents-folder: OQUAREEVALGAM
