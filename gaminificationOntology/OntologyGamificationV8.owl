@@ -1,0 +1,2571 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Acertijos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adaptabilidad_del_jugador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Administración_de_recursos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agacharse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aliados_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alteración_de_climas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alteración_de_espacios_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analista_administrativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analista_comercial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analista_de_gente_y_cultura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animaciones_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aprovechamiento_de_brechas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Armas_a_distancia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Armas_cuerpo_a_cuerpo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Armas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asesino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ataques_a_distancia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ataques_cuerpo_a_cuerpo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bloquear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cambio_de_cámara_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cambio_de_trajes_y_prendas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cambios_de_tamaño_de_elementos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camuflajes_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciclos_noche_y_dia_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cinemáticas_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clanes_de_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Colaboración_entre_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Combate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Combate_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Combate_por_turnos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Combate_simultáneo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Combinar_golpes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comercio_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competitividad_entre_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compras_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comunicación_por_mensajería"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Condiciones_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conflicto_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consumibles_de_personajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Control_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creacion_de_mecánicas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creación_de_espacios_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creación_de_estructuras_sociales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creación_de_objetos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creación_de_personajes_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creatividad_de_los_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curación_de_personajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decisiones_con_consecuencias_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desbloquedo_de_zonas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desbloqueo_de_contenido_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desbloqueo_de_habilidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desplazamiento_lineal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destrucción_de_objetos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deterioro_de_objetos_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diseño_de_juegos_dentro_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disparar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#División_de_pantalla_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diálogos_con_elecciones_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diálogos_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doblar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Efectos_de_sonidos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Efectos_del_tiempo_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eje_de_extraversión"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eje_de_normas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eje_de_paciencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eje_de_riesgo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ejes_del_modelo_de_Marston"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elemento_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enemigos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energía_de_personajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Envejecimiento_de_personajes_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipamiento_de_personajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipos_de_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Espacios_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Esquivar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estaciones_del_año_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estados_alterados_de_vida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estrategia_y_tácticas_de_combate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eventos_contrarreloj_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eventos_temporales_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experiencia_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experimentación_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exploración_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exploración_de_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Explorador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Familias_de_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ficción_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geografía_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gestión_de_la_energía_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gestión_del_tiempo_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gremios_de_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Habilidades_de_combate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Habilidades_de_personajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Head_up_display_HUD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Herramientas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Historia_de_juego_emergente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Historia_principal_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Historias_alternativas_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indicadores_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Influencia_del_jugador_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inmersión_del_jugador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interacción_entre_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intercambio_entre_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interfaz_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jefes_finales_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lanzar_objetos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lenguaje_de_acción_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Logro_del_jugador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manejo_de_inventarios_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mapas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materiales_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mecánica_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mecánicas_de_hackeo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mecánicas_de_tiempo_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Menú_de_opciones_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Menús_y_submenús_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mercado_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Misiones_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Misterios_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modelo_de_personalidad_Marston"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modificación_de_apariencia_de_personajes_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modificación_de_la_distancia_de_la_camara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modificadores_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modo_de_juego_multijugador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modo_de_juego_versus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modos_de_dificultad_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moneda_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movimiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movimientos_especiales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mundos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Música_de_ambientación_narrativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Música_de_fondo_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Música_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Música_de_personajes_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Música_de_situaciones_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Narrativa_alternativa_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Narrativa_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Narrativa_de_juego_emergente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Narrativa_de_juego_no_lineal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Niveles_de_desafío_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Notificaciones_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objetivo_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objetos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objetos_de_ocultamiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objetos_recolectables_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pausa_temporal_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfil_de_cargo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfil_de_jugador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personajes_controlables_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personajes_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personajes_no_jugables_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personalización_de_personajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personalización_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perspectivas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poderes_de_personajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Problemas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producción_de_objetos_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Progresión_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Progresión_del_personaje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puntos_de_curación"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puntos_de_vida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puntos_de_vida_de_personajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puzzle_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radares_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ramificación_de_historias_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Razas_de_personajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recolección_de_objetos_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recursos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regla_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reloj_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Retos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rodar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rompecabezas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saltar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Satisfacción_del_jugador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Selección_de_personajes_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sigilo_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_acumulación_de_experiencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_apuntado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_economía_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_estadísticas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_niveles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_puntos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema_de_salud_del_jugador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistemas_de_monedas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Socialización_entre_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Socializador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sociedades_de_jugadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sonidos_de_ambiente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sonidos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subastas_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sujetar_objetos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tareas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teletransportarse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teoría_de_la_personalidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terrenos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tiempo_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topografía_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transformación_de_personajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transportarse_en_vehículos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triunfador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ubicaciones_geográficas_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uso_de_consumibles_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uso_de_herramientas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehículos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ventas_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vestuario_de_personajes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viaje_en_el_tiempo_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vida_regenerativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Voces_de_personajes_del_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zonas_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zonas_de_sombras_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Áreas_ocultas_en_el_juego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#íconos_de_elementos_de_juego"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#caracteriza_un"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#es_caracterizado_por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#es_requerido_por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_included_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiere"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Analista_administrativo"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#Eje_de_normas"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Analista_comercial"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#Eje_de_riesgo"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Analista_de_gente_y_cultura"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#Eje_de_paciencia"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Combate"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Competitividad_entre_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Conflicto_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Interacción_entre_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Personajes_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Satisfacción_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Asesino"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#es_caracterizado_por"/>
+            <Class IRI="#Eje_de_extraversión"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Eje_de_extraversión"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#caracteriza_un"/>
+            <Class IRI="#Asesino"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Eje_de_normas"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#caracteriza_un"/>
+            <Class IRI="#Explorador"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Eje_de_normas"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_included_in"/>
+            <Class IRI="#Analista_administrativo"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Eje_de_paciencia"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#caracteriza_un"/>
+            <Class IRI="#Socializador"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Eje_de_paciencia"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_included_in"/>
+            <Class IRI="#Analista_de_gente_y_cultura"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Eje_de_riesgo"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#caracteriza_un"/>
+            <Class IRI="#Triunfador"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Eje_de_riesgo"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_included_in"/>
+            <Class IRI="#Analista_comercial"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Administración_de_recursos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Control_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Espacios_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Experimentación_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Exploración_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Personalización_del_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Recursos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Sistema_de_economía_en_el_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Explorador"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#es_caracterizado_por"/>
+            <Class IRI="#Eje_de_normas"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Colaboración_entre_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Narrativa_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Objetivo_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Objetos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Personajes_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Sistema_de_salud_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Socializador"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#es_caracterizado_por"/>
+            <Class IRI="#Eje_de_paciencia"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Aprovechamiento_de_brechas_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Control_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Exploración_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Inmersión_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Logro_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Progresión_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Triunfador"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#es_caracterizado_por"/>
+            <Class IRI="#Eje_de_riesgo"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Acertijos_de_juego"/>
+        <Class IRI="#Problemas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adaptabilidad_del_jugador"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Administración_de_recursos_de_juego"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agacharse"/>
+        <Class IRI="#Movimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aliados_de_juego"/>
+        <Class IRI="#Personajes_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alteración_de_climas"/>
+        <Class IRI="#Influencia_del_jugador_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alteración_de_espacios_de_juego"/>
+        <Class IRI="#Influencia_del_jugador_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analista_administrativo"/>
+        <Class IRI="#Perfil_de_cargo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analista_comercial"/>
+        <Class IRI="#Perfil_de_cargo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analista_de_gente_y_cultura"/>
+        <Class IRI="#Perfil_de_cargo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animaciones_de_juego"/>
+        <Class IRI="#Narrativa_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aprovechamiento_de_brechas_de_juego"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Armas_a_distancia"/>
+        <Class IRI="#Combate_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Armas_cuerpo_a_cuerpo"/>
+        <Class IRI="#Combate_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Armas_de_juego"/>
+        <Class IRI="#Objetos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <Class IRI="#Perfil_de_jugador"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Administración_de_recursos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Aprovechamiento_de_brechas_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Condiciones_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Control_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Exploración_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Exploración_de_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Logro_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Mecánica_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Movimiento"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Narrativa_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Objetivo_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Objetos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Progresión_del_personaje"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Recursos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Regla_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Sigilo_en_el_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Sistema_de_salud_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asesino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Tiempo_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ataques_a_distancia"/>
+        <Class IRI="#Combate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ataques_cuerpo_a_cuerpo"/>
+        <Class IRI="#Combate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bloquear"/>
+        <Class IRI="#Combate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cambio_de_cámara_de_juego"/>
+        <Class IRI="#Perspectivas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cambio_de_trajes_y_prendas"/>
+        <Class IRI="#Personalización_de_personajes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cambios_de_tamaño_de_elementos_de_juego"/>
+        <Class IRI="#Perspectivas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camuflajes_de_juego"/>
+        <Class IRI="#Sigilo_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciclos_noche_y_dia_en_el_juego"/>
+        <Class IRI="#Tiempo_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cinemáticas_del_juego"/>
+        <Class IRI="#Narrativa_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clanes_de_jugadores"/>
+        <Class IRI="#Creación_de_estructuras_sociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colaboración_entre_jugadores"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Combate"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Combate_en_el_juego"/>
+        <Class IRI="#Interacción_entre_jugadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Combate_por_turnos"/>
+        <Class IRI="#Combate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Combate_simultáneo"/>
+        <Class IRI="#Combate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Combinar_golpes"/>
+        <Class IRI="#Combate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comercio_en_el_juego"/>
+        <Class IRI="#Sistema_de_economía_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Competitividad_entre_jugadores"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compras_en_el_juego"/>
+        <Class IRI="#Sistema_de_economía_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comunicación_por_mensajería"/>
+        <Class IRI="#Interacción_entre_jugadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condiciones_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conflicto_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consumibles_de_personajes"/>
+        <Class IRI="#Objetos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Control_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creacion_de_mecánicas_de_juego"/>
+        <Class IRI="#Personalización_del_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creación_de_espacios_de_juego"/>
+        <Class IRI="#Personalización_del_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creación_de_estructuras_sociales"/>
+        <Class IRI="#Interacción_entre_jugadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creación_de_objetos_de_juego"/>
+        <Class IRI="#Personalización_del_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creación_de_personajes_de_juego"/>
+        <Class IRI="#Personalización_de_personajes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creatividad_de_los_jugadores"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Curación_de_personajes"/>
+        <Class IRI="#Sistema_de_salud_del_jugador"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decisiones_con_consecuencias_en_el_juego"/>
+        <Class IRI="#Problemas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desbloquedo_de_zonas_de_juego"/>
+        <Class IRI="#Exploración_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desbloqueo_de_contenido_de_juego"/>
+        <Class IRI="#Condiciones_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desbloqueo_de_habilidades"/>
+        <Class IRI="#Progresión_del_personaje"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desplazamiento_lineal"/>
+        <Class IRI="#Movimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destrucción_de_objetos_de_juego"/>
+        <Class IRI="#Influencia_del_jugador_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deterioro_de_objetos_en_el_juego"/>
+        <Class IRI="#Mecánicas_de_tiempo_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diseño_de_juegos_dentro_del_juego"/>
+        <Class IRI="#Personalización_del_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disparar"/>
+        <Class IRI="#Combate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#División_de_pantalla_de_juego"/>
+        <Class IRI="#Perspectivas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diálogos_con_elecciones_de_juego"/>
+        <Class IRI="#Narrativa_alternativa_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diálogos_del_juego"/>
+        <Class IRI="#Narrativa_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doblar"/>
+        <Class IRI="#Movimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Efectos_de_sonidos_de_juego"/>
+        <Class IRI="#Sonidos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Efectos_del_tiempo_en_el_juego"/>
+        <Class IRI="#Mecánicas_de_tiempo_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eje_de_extraversión"/>
+        <Class IRI="#Ejes_del_modelo_de_Marston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eje_de_normas"/>
+        <Class IRI="#Ejes_del_modelo_de_Marston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eje_de_paciencia"/>
+        <Class IRI="#Ejes_del_modelo_de_Marston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eje_de_riesgo"/>
+        <Class IRI="#Ejes_del_modelo_de_Marston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ejes_del_modelo_de_Marston"/>
+        <Class IRI="#Modelo_de_personalidad_Marston"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enemigos_de_juego"/>
+        <Class IRI="#Personajes_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energía_de_personajes"/>
+        <Class IRI="#Recursos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Envejecimiento_de_personajes_en_el_juego"/>
+        <Class IRI="#Mecánicas_de_tiempo_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipamiento_de_personajes"/>
+        <Class IRI="#Objetos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipos_de_jugadores"/>
+        <Class IRI="#Creación_de_estructuras_sociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espacios_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Esquivar"/>
+        <Class IRI="#Combate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estaciones_del_año_en_el_juego"/>
+        <Class IRI="#Tiempo_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estados_alterados_de_vida"/>
+        <Class IRI="#Sistema_de_salud_del_jugador"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estrategia_y_tácticas_de_combate"/>
+        <Class IRI="#Combate_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eventos_contrarreloj_en_el_juego"/>
+        <Class IRI="#Mecánicas_de_tiempo_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eventos_temporales_en_el_juego"/>
+        <Class IRI="#Tiempo_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experiencia_de_juego"/>
+        <Class IRI="#Recursos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experimentación_de_juego"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exploración_de_juego"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exploración_de_jugadores"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <Class IRI="#Perfil_de_jugador"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Adaptabilidad_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Aprovechamiento_de_brechas_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Combate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Condiciones_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Conflicto_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Creatividad_de_los_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Exploración_de_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Interacción_entre_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Logro_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Movimiento"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Narrativa_alternativa_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Narrativa_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Narrativa_de_juego_emergente"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Objetivo_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Objetos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Personajes_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Problemas_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Progresión_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Progresión_del_personaje"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Regla_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Satisfacción_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Sigilo_en_el_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Sistema_de_salud_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Socialización_entre_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explorador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Tiempo_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Familias_de_jugadores"/>
+        <Class IRI="#Creación_de_estructuras_sociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ficción_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geografía_de_juego"/>
+        <Class IRI="#Espacios_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gestión_de_la_energía_del_juego"/>
+        <Class IRI="#Administración_de_recursos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gestión_del_tiempo_de_juego"/>
+        <Class IRI="#Administración_de_recursos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gremios_de_jugadores"/>
+        <Class IRI="#Creación_de_estructuras_sociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Habilidades_de_combate"/>
+        <Class IRI="#Combate_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Habilidades_de_personajes"/>
+        <Class IRI="#Objetos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Head_up_display_HUD"/>
+        <Class IRI="#Interfaz_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Herramientas_de_juego"/>
+        <Class IRI="#Objetos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Historia_de_juego_emergente"/>
+        <Class IRI="#Narrativa_alternativa_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Historia_principal_del_juego"/>
+        <Class IRI="#Narrativa_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Historias_alternativas_del_juego"/>
+        <Class IRI="#Narrativa_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indicadores_de_juego"/>
+        <Class IRI="#Interfaz_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Influencia_del_jugador_en_el_juego"/>
+        <Class IRI="#Exploración_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inmersión_del_jugador"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interacción_entre_jugadores"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intercambio_entre_jugadores"/>
+        <Class IRI="#Interacción_entre_jugadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interfaz_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jefes_finales_del_juego"/>
+        <Class IRI="#Personajes_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lanzar_objetos"/>
+        <Class IRI="#Combate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lenguaje_de_acción_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logro_del_jugador"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manejo_de_inventarios_de_juego"/>
+        <Class IRI="#Administración_de_recursos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mapas_de_juego"/>
+        <Class IRI="#Exploración_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mapas_de_juego"/>
+        <Class IRI="#Interfaz_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materiales_de_juego"/>
+        <Class IRI="#Recursos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mecánicas_de_hackeo"/>
+        <Class IRI="#Problemas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mecánicas_de_tiempo_en_el_juego"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Menú_de_opciones_de_juego"/>
+        <Class IRI="#Condiciones_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Menús_y_submenús_de_juego"/>
+        <Class IRI="#Interfaz_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mercado_en_el_juego"/>
+        <Class IRI="#Sistema_de_economía_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metas_de_juego"/>
+        <Class IRI="#Objetivo_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Misiones_de_juego"/>
+        <Class IRI="#Objetivo_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Misterios_de_juego"/>
+        <Class IRI="#Problemas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modelo_de_personalidad_Marston"/>
+        <Class IRI="#Teoría_de_la_personalidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modificación_de_apariencia_de_personajes_de_juego"/>
+        <Class IRI="#Personalización_de_personajes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modificación_de_la_distancia_de_la_camara"/>
+        <Class IRI="#Perspectivas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modificadores_de_juego"/>
+        <Class IRI="#Condiciones_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modo_de_juego_multijugador"/>
+        <Class IRI="#Interacción_entre_jugadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modo_de_juego_versus"/>
+        <Class IRI="#Interacción_entre_jugadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modos_de_dificultad_del_juego"/>
+        <Class IRI="#Condiciones_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moneda_de_juego"/>
+        <Class IRI="#Recursos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movimiento"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movimientos_especiales"/>
+        <Class IRI="#Combate_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mundos_de_juego"/>
+        <Class IRI="#Espacios_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Música_de_ambientación_narrativa"/>
+        <Class IRI="#Música_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Música_de_fondo_de_juego"/>
+        <Class IRI="#Música_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Música_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Música_de_personajes_de_juego"/>
+        <Class IRI="#Música_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Música_de_situaciones_de_juego"/>
+        <Class IRI="#Música_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Narrativa_alternativa_de_juego"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Narrativa_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Narrativa_de_juego_emergente"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Narrativa_de_juego_no_lineal"/>
+        <Class IRI="#Narrativa_alternativa_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Niveles_de_desafío_del_juego"/>
+        <Class IRI="#Condiciones_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notificaciones_de_juego"/>
+        <Class IRI="#Interfaz_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objetivo_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objetos_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objetos_de_ocultamiento"/>
+        <Class IRI="#Sigilo_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objetos_recolectables_del_juego"/>
+        <Class IRI="#Recursos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pausa_temporal_del_juego"/>
+        <Class IRI="#Mecánicas_de_tiempo_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personajes_controlables_de_juego"/>
+        <Class IRI="#Personajes_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personajes_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personajes_no_jugables_de_juego"/>
+        <Class IRI="#Personajes_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personalización_de_personajes"/>
+        <Class IRI="#Personalización_del_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personalización_del_juego"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perspectivas_de_juego"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poderes_de_personajes"/>
+        <Class IRI="#Objetos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Problemas_de_juego"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producción_de_objetos_en_el_juego"/>
+        <Class IRI="#Sistema_de_economía_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Progresión_de_juego"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Progresión_del_personaje"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puntos_de_curación"/>
+        <Class IRI="#Sistema_de_salud_del_jugador"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puntos_de_vida"/>
+        <Class IRI="#Recursos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puntos_de_vida_de_personajes"/>
+        <Class IRI="#Sistema_de_salud_del_jugador"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puzzle_de_juego"/>
+        <Class IRI="#Problemas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radares_de_juego"/>
+        <Class IRI="#Interfaz_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ramificación_de_historias_en_el_juego"/>
+        <Class IRI="#Narrativa_alternativa_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Razas_de_personajes"/>
+        <Class IRI="#Creación_de_estructuras_sociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recolección_de_objetos_en_el_juego"/>
+        <Class IRI="#Sistema_de_economía_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recursos_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regla_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reloj_del_juego"/>
+        <Class IRI="#Tiempo_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Retos_de_juego"/>
+        <Class IRI="#Objetivo_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rodar"/>
+        <Class IRI="#Movimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rompecabezas_de_juego"/>
+        <Class IRI="#Problemas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saltar"/>
+        <Class IRI="#Movimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Satisfacción_del_jugador"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Selección_de_personajes_de_juego"/>
+        <Class IRI="#Personalización_del_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sigilo_en_el_juego"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_acumulación_de_experiencia"/>
+        <Class IRI="#Progresión_del_personaje"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_apuntado"/>
+        <Class IRI="#Combate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_economía_en_el_juego"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_estadísticas"/>
+        <Class IRI="#Progresión_del_personaje"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_niveles"/>
+        <Class IRI="#Progresión_del_personaje"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_puntos"/>
+        <Class IRI="#Progresión_del_personaje"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema_de_salud_del_jugador"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistemas_de_monedas"/>
+        <Class IRI="#Sistema_de_economía_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socialización_entre_jugadores"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <Class IRI="#Perfil_de_jugador"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Adaptabilidad_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Administración_de_recursos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Condiciones_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Conflicto_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Creatividad_de_los_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Espacios_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Exploración_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Exploración_de_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Ficción_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Interacción_entre_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Logro_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Mecánicas_de_tiempo_en_el_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Movimiento"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Narrativa_alternativa_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Narrativa_de_juego_emergente"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Personalización_del_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Problemas_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Progresión_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Progresión_del_personaje"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Recursos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Regla_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Satisfacción_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Sigilo_en_el_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Sistema_de_economía_en_el_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Socialización_entre_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socializador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Tiempo_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sociedades_de_jugadores"/>
+        <Class IRI="#Creación_de_estructuras_sociales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sonidos_de_ambiente"/>
+        <Class IRI="#Sonidos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sonidos_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subastas_en_el_juego"/>
+        <Class IRI="#Sistema_de_economía_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sujetar_objetos"/>
+        <Class IRI="#Movimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tareas_de_juego"/>
+        <Class IRI="#Objetivo_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teletransportarse"/>
+        <Class IRI="#Movimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terrenos_de_juego"/>
+        <Class IRI="#Espacios_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terrenos_de_juego"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#es_requerido_por"/>
+            <ObjectUnionOf>
+                <Class IRI="#Asesino"/>
+                <Class IRI="#Explorador"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiempo_de_juego"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topografía_de_juego"/>
+        <Class IRI="#Espacios_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transformación_de_personajes"/>
+        <Class IRI="#Cambio_de_trajes_y_prendas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transportarse_en_vehículos"/>
+        <Class IRI="#Movimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <Class IRI="#Perfil_de_jugador"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Adaptabilidad_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Administración_de_recursos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Colaboración_entre_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Combate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Competitividad_entre_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Condiciones_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Conflicto_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Espacios_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Exploración_de_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Ficción_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Interacción_entre_jugadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Mecánicas_de_tiempo_en_el_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Movimiento"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Narrativa_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Objetivo_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Objetos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Personajes_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Problemas_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Recursos_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Regla_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Satisfacción_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Sigilo_en_el_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Sistema_de_economía_en_el_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Sistema_de_salud_del_jugador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triunfador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiere"/>
+            <Class IRI="#Tiempo_de_juego"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ubicaciones_geográficas_en_el_juego"/>
+        <Class IRI="#Exploración_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uso_de_consumibles_de_juego"/>
+        <Class IRI="#Administración_de_recursos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uso_de_herramientas_de_juego"/>
+        <Class IRI="#Administración_de_recursos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehículos_de_juego"/>
+        <Class IRI="#Objetos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ventas_en_el_juego"/>
+        <Class IRI="#Sistema_de_economía_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vestuario_de_personajes"/>
+        <Class IRI="#Objetos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viaje_en_el_tiempo_en_el_juego"/>
+        <Class IRI="#Tiempo_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vida_regenerativa"/>
+        <Class IRI="#Sistema_de_salud_del_jugador"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voces_de_personajes_del_juego"/>
+        <Class IRI="#Sonidos_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zonas_de_juego"/>
+        <Class IRI="#Espacios_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zonas_de_sombras_en_el_juego"/>
+        <Class IRI="#Sigilo_en_el_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Áreas_ocultas_en_el_juego"/>
+        <Class IRI="#Exploración_de_juego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#íconos_de_elementos_de_juego"/>
+        <Class IRI="#Interfaz_de_juego"/>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#caracteriza_un"/>
+        <ObjectProperty IRI="#es_caracterizado_por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#es_requerido_por"/>
+        <ObjectProperty IRI="#requiere"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#includes"/>
+        <ObjectProperty IRI="#is_included_in"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#caracteriza_un"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#es_caracterizado_por"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#es_requerido_por"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#includes"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#is_included_in"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#requiere"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#caracteriza_un"/>
+        <Class IRI="#Ejes_del_modelo_de_Marston"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_caracterizado_por"/>
+        <Class IRI="#Perfil_de_jugador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_requerido_por"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_requerido_por"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_requerido_por"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includes"/>
+        <Class IRI="#Perfil_de_cargo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_included_in"/>
+        <Class IRI="#Ejes_del_modelo_de_Marston"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiere"/>
+        <Class IRI="#Perfil_de_jugador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#caracteriza_un"/>
+        <Class IRI="#Perfil_de_jugador"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#es_caracterizado_por"/>
+        <Class IRI="#Ejes_del_modelo_de_Marston"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#es_requerido_por"/>
+        <Class IRI="#Perfil_de_jugador"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includes"/>
+        <Class IRI="#Ejes_del_modelo_de_Marston"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_included_in"/>
+        <Class IRI="#Perfil_de_cargo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiere"/>
+        <Class IRI="#Dinámicas_de_juego"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiere"/>
+        <Class IRI="#Elemento_de_juego"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiere"/>
+        <Class IRI="#Mecánica_de_juego"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
