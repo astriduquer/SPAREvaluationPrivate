@@ -1,0 +1,2901 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5/"
+     xml:base="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#caracteriza_un -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#caracteriza_un">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#es_caracterizado_por"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marstons_personality_axis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#player_profile"/>
+        <rdfs:label>caracteriza_un</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#es_caracterizado_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#es_caracterizado_por">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#player_profile"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marstons_personality_axis"/>
+        <rdfs:label>es_caracterizado_por</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#es_requerido_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#es_requerido_por">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#player_profile"/>
+        <rdfs:label>es_requerido_por</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#includes">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#is_included_in"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Position_profile"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marstons_personality_axis"/>
+        <rdfs:label>includes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#is_included_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#is_included_in">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marstons_personality_axis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Position_profile"/>
+        <rdfs:label>is_included_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#player_profile"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>requiere</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Achievers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Achievers">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Exploitation_of_game_gaps"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_control"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_exploration"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_progression"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_achievement"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_inmersion"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#es_caracterizado_por"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Risk_axis"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#player_profile"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Collaboration_between_players"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Competition_between_players"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_characters"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conditions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conflict"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_fiction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objective"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resource_managment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_rules"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_timing_mechanics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_spaces"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_adaptability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_exploration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_health_system"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_satisfaction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Problems_in_the_game"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Stealth_in_the_game"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Achievers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Aiming_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Aiming_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+        <rdfs:label>Aiming_system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alteration_of_climates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alteration_of_climates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_influence_on_the_game"/>
+        <rdfs:label>Alteration_of_climates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alteration_of_play_spaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alteration_of_play_spaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_influence_on_the_game"/>
+        <rdfs:label>Alteration_of_play_spaces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Altered_states_of_life -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Altered_states_of_life">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_health_system"/>
+        <rdfs:label>Altered_states_of_life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alternative_game_stories -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alternative_game_stories">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative"/>
+        <rdfs:label>Alternative_game_stories</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alternative_gameplay_narrative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alternative_gameplay_narrative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Alternative_gameplay_narrative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ambient_sounds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ambient_sounds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_sounds"/>
+        <rdfs:label>Ambient_sounds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Battle_for_points -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Battle_for_points">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+        <rdfs:label>Battle_for_points</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Bend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Bend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+        <rdfs:label>Bend</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Block -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Block">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+        <rdfs:label>Block</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Branching_stories_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Branching_stories_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alternative_gameplay_narrative"/>
+        <rdfs:label>Branching_stories_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Change_of_suits_and_clothing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Change_of_suits_and_clothing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_customization"/>
+        <rdfs:label>Change_of_suits_and_clothing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_aging_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_aging_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_timing_mechanics"/>
+        <rdfs:label>Character_aging_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_consumable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_consumable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+        <rdfs:label>Character_consumable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_customization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_customization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_customization"/>
+        <rdfs:label>Character_customization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_energy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources"/>
+        <rdfs:label>Character_energy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+        <rdfs:label>Character_equipment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_healing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_healing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_health_system"/>
+        <rdfs:label>Character_healing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_life_points -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_life_points">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_health_system"/>
+        <rdfs:label>Character_life_points</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_powers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_powers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+        <rdfs:label>Character_powers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_progression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_progression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Character_progression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_skills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_skills">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+        <rdfs:label>Character_skills</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Change_of_suits_and_clothing"/>
+        <rdfs:label>Character_transformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Coin_systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Coin_systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem"/>
+        <rdfs:label>Coin_systems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Collaboration_between_players -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Collaboration_between_players">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Collaboration_between_players</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Collectible_in_game_items -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Collectible_in_game_items">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources"/>
+        <rdfs:label>Collectible_in_game_items</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Collecting_in_game_items -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Collecting_in_game_items">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem"/>
+        <rdfs:label>Collecting_in_game_items</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combat_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combat_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players"/>
+        <rdfs:label>Combat_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combat_skills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combat_skills">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combat_in_the_game"/>
+        <rdfs:label>Combat_skills</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combat_strategies_and_tactics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combat_strategies_and_tactics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combat_in_the_game"/>
+        <rdfs:label>Combat_strategies_and_tactics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combine_blows -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combine_blows">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+        <rdfs:label>Combine_blows</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Commercial_analyts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Commercial_analyts">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#includes"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Risk_axis"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Position_profile"/>
+        <rdfs:label>Commercial_analyts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Competition_between_players -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Competition_between_players">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Competition_between_players</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Concealment_items_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Concealment_items_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Stealth_in_the_game"/>
+        <rdfs:label>Concealment_items_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Controllable_game_characters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Controllable_game_characters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_characters"/>
+        <rdfs:label>Controllable_game_characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creating_game_objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creating_game_objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_customization"/>
+        <rdfs:label>Creating_game_objects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_game_mechanics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_game_mechanics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_customization"/>
+        <rdfs:label>Creation_of_game_mechanics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_play_spaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_play_spaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_customization"/>
+        <rdfs:label>Creation_of_play_spaces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_social_structures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_social_structures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players"/>
+        <rdfs:label>Creation_of_social_structures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Decisions_with_consequences_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Decisions_with_consequences_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Problems_in_the_game"/>
+        <rdfs:label>Decisions_with_consequences_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Destruction_of_game_objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Destruction_of_game_objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_influence_on_the_game"/>
+        <rdfs:label>Destruction_of_game_objects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Deterioration_of_objects_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Deterioration_of_objects_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_timing_mechanics"/>
+        <rdfs:label>Deterioration_of_objects_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Dialogues_with_game_choices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Dialogues_with_game_choices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alternative_gameplay_narrative"/>
+        <rdfs:label>Dialogues_with_game_choices</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Dodge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Dodge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+        <rdfs:label>Dodge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Emergent_gameplay_narrative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Emergent_gameplay_narrative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Emergent_gameplay_narrative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Emerging_game_story -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Emerging_game_story">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alternative_gameplay_narrative"/>
+        <rdfs:label>Emerging_game_story</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Exchange_between_players -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Exchange_between_players">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players"/>
+        <rdfs:label>Exchange_between_players</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Experience_acumulation_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Experience_acumulation_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_progression"/>
+        <rdfs:label>Experience_acumulation_system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Exploitation_of_game_gaps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Exploitation_of_game_gaps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Exploitation_of_game_gaps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Explorer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Explorer">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_control"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_customization"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_experimentation"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_exploration"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resource_managment"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_spaces"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#es_caracterizado_por"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Standards_axis"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#player_profile"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alternative_gameplay_narrative"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_progression"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Emergent_gameplay_narrative"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Exploitation_of_game_gaps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_characters"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conditions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conflict"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objective"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_progression"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_rules"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_achievement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_adaptability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_creativity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_exploration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_health_system"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_satisfaction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Problems_in_the_game"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Socialization_between_players"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Stealth_in_the_game"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Explorer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Extraversion_axis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Extraversion_axis">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#caracteriza_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Killer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#is_included_in"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Senior_Developers"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marstons_personality_axis"/>
+        <rdfs:label>Extraversion_axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Final_game_bosses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Final_game_bosses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_characters"/>
+        <rdfs:label>Final_game_bosses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Fold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Fold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+        <rdfs:label>Fold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics">
+        <rdfs:label>Game_Dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements">
+        <rdfs:label>Game_Elements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics">
+        <rdfs:label>Game_Mechanics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_action_language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_action_language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_action_language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_animations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_animations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative"/>
+        <rdfs:label>Game_animations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_background_music -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_background_music">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_music"/>
+        <rdfs:label>Game_background_music</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_camera_change -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_camera_change">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_perspectives"/>
+        <rdfs:label>Game_camera_change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_camouflage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_camouflage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Stealth_in_the_game"/>
+        <rdfs:label>Game_camouflage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_challenge_levels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_challenge_levels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conditions"/>
+        <rdfs:label>Game_challenge_levels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_challenges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_challenges">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objective"/>
+        <rdfs:label>Game_challenges</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_character_appearance_modification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_character_appearance_modification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_customization"/>
+        <rdfs:label>Game_character_appearance_modification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_character_creation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_character_creation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_customization"/>
+        <rdfs:label>Game_character_creation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_character_music -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_character_music">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_music"/>
+        <rdfs:label>Game_character_music</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_character_selection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_character_selection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_customization"/>
+        <rdfs:label>Game_character_selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_character_voices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_character_voices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_sounds"/>
+        <rdfs:label>Game_character_voices</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_characters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_characters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_cinematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_cinematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative"/>
+        <rdfs:label>Game_cinematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_clock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_clock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time"/>
+        <rdfs:label>Game_clock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_coins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_coins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources"/>
+        <rdfs:label>Game_coins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Game_combat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conditions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conditions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_conditions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conflict -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conflict">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_conflict</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_control</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_costume -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_costume">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+        <rdfs:label>Game_costume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_customization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_customization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Game_customization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_design_within_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_design_within_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_customization"/>
+        <rdfs:label>Game_design_within_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_dialogues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_dialogues">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative"/>
+        <rdfs:label>Game_dialogues</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_difficulty_modes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_difficulty_modes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conditions"/>
+        <rdfs:label>Game_difficulty_modes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_elements_icons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_elements_icons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_interface"/>
+        <rdfs:label>Game_elements_icons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_enemies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_enemies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_characters"/>
+        <rdfs:label>Game_enemies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_experimentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_experimentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Game_experimentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_exploration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_exploration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Game_exploration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_fiction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_fiction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_fiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_geography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_geography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_spaces"/>
+        <rdfs:label>Game_geography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_goals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_goals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objective"/>
+        <rdfs:label>Game_goals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_indicators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_indicators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_interface"/>
+        <rdfs:label>Game_indicators</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_interface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_maps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_maps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_exploration"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_interface"/>
+        <rdfs:label>Game_maps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_materials -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_materials">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources"/>
+        <rdfs:label>Game_materials</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_menus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_menus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_interface"/>
+        <rdfs:label>Game_menus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_missions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_missions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objective"/>
+        <rdfs:label>Game_missions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_modifiers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_modifiers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conditions"/>
+        <rdfs:label>Game_modifiers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_music -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_music">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_music</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_mysteries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_mysteries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Problems_in_the_game"/>
+        <rdfs:label>Game_mysteries</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_narrative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative_puzzles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative_puzzles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Problems_in_the_game"/>
+        <rdfs:label>Game_narrative_puzzles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_notifications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_notifications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_interface"/>
+        <rdfs:label>Game_notifications</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objective -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_objects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_options_menu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_options_menu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conditions"/>
+        <rdfs:label>Game_options_menu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_perspectives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_perspectives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Game_perspectives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_progression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_progression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Game_progression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_puzzles_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_puzzles_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Problems_in_the_game"/>
+        <rdfs:label>Game_puzzles_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_radars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_radars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_interface"/>
+        <rdfs:label>Game_radars</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resource_managment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resource_managment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Game_resource_managment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_resources</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_rules -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_rules">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_rules</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_screen_split -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_screen_split">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_perspectives"/>
+        <rdfs:label>Game_screen_split</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_sounds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_sounds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_sounds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_sounds_effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_sounds_effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_sounds"/>
+        <rdfs:label>Game_sounds_effects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_tasks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_tasks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objective"/>
+        <rdfs:label>Game_tasks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Game_time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time_management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time_management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resource_managment"/>
+        <rdfs:label>Game_time_management</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_tools">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+        <rdfs:label>Game_tools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_topography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_topography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_spaces"/>
+        <rdfs:label>Game_topography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_vehicles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_vehicles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+        <rdfs:label>Game_vehicles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_weapons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_weapons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+        <rdfs:label>Game_weapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_worlds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_worlds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_spaces"/>
+        <rdfs:label>Game_worlds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Gaming_allies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Gaming_allies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_characters"/>
+        <rdfs:label>Gaming_allies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Gaming_experiences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Gaming_experiences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources"/>
+        <rdfs:label>Gaming_experiences</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Gaming_power_managment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Gaming_power_managment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resource_managment"/>
+        <rdfs:label>Gaming_power_managment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Geographic_locations_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Geographic_locations_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_exploration"/>
+        <rdfs:label>Geographic_locations_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Hacking_mechanics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Hacking_mechanics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Problems_in_the_game"/>
+        <rdfs:label>Hacking_mechanics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Head_up_display_HUD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Head_up_display_HUD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_interface"/>
+        <rdfs:label>Head_up_display_HUD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Healing_points -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Healing_points">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_health_system"/>
+        <rdfs:label>Healing_points</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Hidden_areas_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Hidden_areas_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_exploration"/>
+        <rdfs:label>Hidden_areas_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Hold_objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Hold_objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+        <rdfs:label>Hold_objects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Hop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Hop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+        <rdfs:label>Hop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_auctions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_auctions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem"/>
+        <rdfs:label>In_game_auctions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_inventory_management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_inventory_management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resource_managment"/>
+        <rdfs:label>In_game_inventory_management</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_market -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_market">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem"/>
+        <rdfs:label>In_game_market</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_purchanses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_purchanses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem"/>
+        <rdfs:label>In_game_purchanses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_sales -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_sales">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem"/>
+        <rdfs:label>In_game_sales</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_time_trial_events -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_time_trial_events">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_timing_mechanics"/>
+        <rdfs:label>In_game_time_trial_events</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_trading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#In_game_trading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem"/>
+        <rdfs:label>In_game_trading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Ingame_economy_sustem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_timing_mechanics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_timing_mechanics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Ingame_timing_mechanics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Interaction_between_players</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Junior_Developers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Junior_Developers">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#includes"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Standards_axis"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Position_profile"/>
+        <rdfs:label>Junior_Developers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Killer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Killer">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Competition_between_players"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_characters"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conflict"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_satisfaction"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#es_caracterizado_por"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Extraversion_axis"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#player_profile"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_progression"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Exploitation_of_game_gaps"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conditions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_control"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_exploration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objective"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resource_managment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_rules"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_achievement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_exploration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_health_system"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Stealth_in_the_game"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Killer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Level_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Level_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_progression"/>
+        <rdfs:label>Level_system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Life_points -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Life_points">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources"/>
+        <rdfs:label>Life_points</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Linear_displacement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Linear_displacement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+        <rdfs:label>Linear_displacement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Main_story_of_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Main_story_of_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative"/>
+        <rdfs:label>Main_story_of_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marston_personality_Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marston_personality_Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Personality_theory"/>
+        <rdfs:label>Marston_personality_Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marstons_personality_axis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marstons_personality_axis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marston_personality_Model"/>
+        <rdfs:label>Marstons_personality_axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Melee_attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Melee_attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+        <rdfs:label>Melee_attacks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Melee_weapons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Melee_weapons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combat_in_the_game"/>
+        <rdfs:label>Melee_weapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Messaging_communcation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Messaging_communcation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players"/>
+        <rdfs:label>Messaging_communcation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Modifying_the_camera_distance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Modifying_the_camera_distance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_perspectives"/>
+        <rdfs:label>Modifying_the_camera_distance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Movement_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Multiplayer_game_mode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Multiplayer_game_mode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players"/>
+        <rdfs:label>Multiplayer_game_mode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Music_of_game_situations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Music_of_game_situations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_music"/>
+        <rdfs:label>Music_of_game_situations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Narrative_background_music -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Narrative_background_music">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_music"/>
+        <rdfs:label>Narrative_background_music</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Night_and_day_cycles_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Night_and_day_cycles_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time"/>
+        <rdfs:label>Night_and_day_cycles_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Non_controllable_game_characters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Non_controllable_game_characters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_characters"/>
+        <rdfs:label>Non_controllable_game_characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Non_linear_game_narrative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Non_linear_game_narrative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alternative_gameplay_narrative"/>
+        <rdfs:label>Non_linear_game_narrative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Patience_axis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Patience_axis">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#caracteriza_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Socializer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#is_included_in"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#People_and_Culture_Analyst"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marstons_personality_axis"/>
+        <rdfs:label>Patience_axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#People_and_Culture_Analyst -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#People_and_Culture_Analyst">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#includes"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Patience_axis"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Position_profile"/>
+        <rdfs:label>People_and_Culture_Analyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Personality_theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Personality_theory">
+        <rdfs:label>Personality_theory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_areas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_areas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_spaces"/>
+        <rdfs:label>Play_areas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_spaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_spaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Play_spaces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_achievement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_achievement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Player_achievement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_adaptability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_adaptability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Player_adaptability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_clans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_clans">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_social_structures"/>
+        <rdfs:label>Player_clans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_creativity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_creativity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Player_creativity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_exploration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_exploration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Player_exploration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_families -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_families">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_social_structures"/>
+        <rdfs:label>Player_families</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_guilds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_guilds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_social_structures"/>
+        <rdfs:label>Player_guilds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_health_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_health_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Elements"/>
+        <rdfs:label>Player_health_system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_influence_on_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_influence_on_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_exploration"/>
+        <rdfs:label>Player_influence_on_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_inmersion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_inmersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Player_inmersion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_races -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_races">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_social_structures"/>
+        <rdfs:label>Player_races</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_satisfaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_satisfaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Player_satisfaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_societies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_societies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_social_structures"/>
+        <rdfs:label>Player_societies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_teams -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_teams">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Creation_of_social_structures"/>
+        <rdfs:label>Player_teams</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Playing_fields -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Playing_fields">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_spaces"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#es_requerido_por"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Explorer"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Killer"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Playing_fields</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Point_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Point_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_progression"/>
+        <rdfs:label>Point_system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Position_profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Position_profile">
+        <rdfs:label>Position_profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Problems_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Problems_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Problems_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Production_of_in_game_items -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Production_of_in_game_items">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem"/>
+        <rdfs:label>Production_of_in_game_items</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Question_riddles_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Question_riddles_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Problems_in_the_game"/>
+        <rdfs:label>Question_riddles_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ranged_attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ranged_attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+        <rdfs:label>Ranged_attacks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ranged_weapons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ranged_weapons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combat_in_the_game"/>
+        <rdfs:label>Ranged_weapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Regenerative_life -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Regenerative_life">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_health_system"/>
+        <rdfs:label>Regenerative_life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Resizing_game_elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Resizing_game_elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_perspectives"/>
+        <rdfs:label>Resizing_game_elements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Risk_axis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Risk_axis">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#caracteriza_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Achievers"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#is_included_in"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Commercial_analyts"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marstons_personality_axis"/>
+        <rdfs:label>Risk_axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Roll -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Roll">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+        <rdfs:label>Roll</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Seasons_of_the_year_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Seasons_of_the_year_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time"/>
+        <rdfs:label>Seasons_of_the_year_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Senior_Developers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Senior_Developers">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#includes"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Extraversion_axis"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Position_profile"/>
+        <rdfs:label>Senior_Developers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Shadow_areas_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Shadow_areas_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Stealth_in_the_game"/>
+        <rdfs:label>Shadow_areas_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Shoot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Shoot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+        <rdfs:label>Shoot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Simultaneous_combat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Simultaneous_combat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+        <rdfs:label>Simultaneous_combat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Socialization_between_players -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Socialization_between_players">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Dynamics"/>
+        <rdfs:label>Socialization_between_players</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Socializer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Socializer">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Collaboration_between_players"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_characters"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_narrative"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objective"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_objects"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_health_system"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#es_caracterizado_por"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Patience_axis"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#player_profile"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Alternative_gameplay_narrative"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_progression"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Emergent_gameplay_narrative"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conditions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conflict"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_customization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_exploration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_fiction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_progression"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resource_managment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resources"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_rules"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_economy_sustem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_timing_mechanics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Play_spaces"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_achievement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_adaptability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_creativity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_exploration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Player_satisfaction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Problems_in_the_game"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Socialization_between_players"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#requiere"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Stealth_in_the_game"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Socializer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Special_moves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Special_moves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Combat_in_the_game"/>
+        <rdfs:label>Special_moves</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Standards_axis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Standards_axis">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#caracteriza_un"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Explorer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#is_included_in"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Junior_Developers"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Marstons_personality_axis"/>
+        <rdfs:label>Standards_axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Statistics_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Statistics_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_progression"/>
+        <rdfs:label>Statistics_system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Stealth_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Stealth_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_Mechanics"/>
+        <rdfs:label>Stealth_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Teleport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Teleport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+        <rdfs:label>Teleport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Temporary_game_pause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Temporary_game_pause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_timing_mechanics"/>
+        <rdfs:label>Temporary_game_pause</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Temporary_in_game_events -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Temporary_in_game_events">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time"/>
+        <rdfs:label>Temporary_in_game_events</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Throw_objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Throw_objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_combat"/>
+        <rdfs:label>Throw_objects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Time_travel_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Time_travel_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_time"/>
+        <rdfs:label>Time_travel_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Transport_in_vehicles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Transport_in_vehicles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Movement_in_the_game"/>
+        <rdfs:label>Transport_in_vehicles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Unlocking_character_skills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Unlocking_character_skills">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Character_progression"/>
+        <rdfs:label>Unlocking_character_skills</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Unlocking_game_content -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Unlocking_game_content">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_conditions"/>
+        <rdfs:label>Unlocking_game_content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Unlocking_play_areas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Unlocking_play_areas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_exploration"/>
+        <rdfs:label>Unlocking_play_areas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Use_of_game_tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Use_of_game_tools">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resource_managment"/>
+        <rdfs:label>Use_of_game_tools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Using_game_consumables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Using_game_consumables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Game_resource_managment"/>
+        <rdfs:label>Using_game_consumables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Versus_game_mode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Versus_game_mode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Interaction_between_players"/>
+        <rdfs:label>Versus_game_mode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Weather_effects_in_the_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Weather_effects_in_the_game">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#Ingame_timing_mechanics"/>
+        <rdfs:label>Weather_effects_in_the_game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#player_profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gabrielramirez/ontologies/2023/8/untitled-ontology-5#player_profile">
+        <rdfs:label>player_profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="file:/Users/astriduquer/Documents/UMU/SIEMENSENERGY/SIEMENS-2/CO2/PYTHONPROGRAMS/IncludeRDFLABELSAutomatically/IncludeRDFLABELSAutomatically/Ontologies/Gamification/LabelOntology/Na73b5039fa714bdf9dd5c9c9c4a05eea">
+        <rdfs:label>Na73b5039fa714bdf9dd5c9c9c4a05eea</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
